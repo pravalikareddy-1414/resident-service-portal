@@ -1,0 +1,1 @@
+module.exports={testEnvironment:'jsdom',testMatch:['**/tests/**/*.test.[jt]s?(x)'],transform:{'^.+\\.[jt]sx?$':'babel-jest'},moduleNameMapper:{'\\.(scss|css)$':'<rootDir>/tests/styleMock.cjs','^./api$':'<rootDir>/tests/apiMock.cjs'},setupFilesAfterEnv:['@testing-library/jest-dom']};

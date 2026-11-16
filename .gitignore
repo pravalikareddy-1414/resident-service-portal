@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+coverage/
+cypress/screenshots/
+cypress/videos/
+.lighthouseci/
+infra/cdk.out/
